@@ -26,7 +26,7 @@ print("dy/y^2 = 2*x dx")
 integral_izquierda = sp.integrate(y**(-2), y)
 integral_derecha = sp.integrate(2*x, x)
 
-#print("\nINTEGRACION:")
+#print("\nIntegrar:")
 #print("Lado izquierdo:")
 sp.pprint(integral_izquierda)
 
